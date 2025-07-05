@@ -2,6 +2,8 @@
 
 A machine learning web app to detect fake news articles in Hindi using Logistic Regression and TF-IDF vectorization.
 
+### Screenshots
+
 ![WhatsApp Image 2025-07-05 at 12 24 45_6514a74a](https://github.com/user-attachments/assets/c5e9e3b4-d91f-4de1-b4e0-fe0c09d1043c)
 
 ![WhatsApp Image 2025-07-05 at 12 25 21_1c79dbf5](https://github.com/user-attachments/assets/f831b824-f59b-40a2-944c-f8341021655c)
@@ -11,7 +13,7 @@ A machine learning web app to detect fake news articles in Hindi using Logistic 
 ![WhatsApp Image 2025-07-05 at 12 26 47_3f8ba7be](https://github.com/user-attachments/assets/c7b3fb41-e266-47e5-9231-110f76d06d6b)
 
 
-🚀 Features
+### 🚀 Features
 
 Logistic Regression model trained on real + synthetic fake Hindi news data
 
@@ -25,7 +27,7 @@ Enhanced generalization with synthetic health/science/government fake news sampl
 
 Flask web app with Bootstrap-based gradient UI (soft pastel + nature-inspired themes)
 
-📌 Technologies Used
+### 📌 Technologies Used
 
 Python (Flask, scikit-learn, pandas, nltk, Indic NLP)
 
@@ -35,7 +37,7 @@ Logistic Regression + TF-IDF
 
 Joblib (model persistence)
 
-⚙️ Setup Instructions
+### ⚙️ Setup Instructions
 
 1️⃣ Clone the repo
 
@@ -57,7 +59,7 @@ nltk.download('stopwords')
 
 python app.py
 
-📝 Project Structure
+### 📝 Project Structure
 
 Hindi-Fake-News-Detection/
 
@@ -77,7 +79,7 @@ Hindi-Fake-News-Detection/
 
     └── (optional CSS / images if any)
 
-📊 Model Performance
+### 📊 Model Performance
 
 | Metric        | Value                                      |
 | ------------- | ------------------------------------------ |
@@ -85,7 +87,7 @@ Hindi-Fake-News-Detection/
 | Classifier    | Logistic Regression                        |
 | Features      | TF-IDF (1-gram, 2-gram), 3000 max features |
 
-📌 Notes
+### 📌 Notes
 
 This project was developed for local deployment and demonstration.
 
